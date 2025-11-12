@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "lib": ["deno.window", "dom", "esnext"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "imports": {
+    "supabase": "https://esm.sh/@supabase/supabase-js@2.38.4",
+    "ical": "https://esm.sh/ical.js@1.5.0"
+  },
+  "tasks": {
+    "serve-calendar-sync": "deno run --allow-all --watch functions/calendar-sync/index.ts",
+    "serve-twilio": "deno run --allow-all --watch functions/twilio-webhook/index.ts",
+    "serve-sms": "deno run --allow-all --watch functions/send-cleaning-sms/index.ts",
+    "serve-stripe": "deno run --allow-all --watch functions/stripe-webhook/index.ts"
+  }
+}
