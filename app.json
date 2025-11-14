@@ -58,7 +58,8 @@
           "merchantIdentifier": "merchant.com.cleanerscheduler.app",
           "enableGooglePay": true
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "extra": {
       "router": {

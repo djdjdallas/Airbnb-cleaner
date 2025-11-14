@@ -14,21 +14,35 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@/*": ["./*"],
-      "@components/*": ["./components/*"],
-      "@screens/*": ["./app/screens/*"],
-      "@services/*": ["./services/*"],
-      "@utils/*": ["./utils/*"],
-      "@constants/*": ["./constants/*"],
-      "@hooks/*": ["./hooks/*"],
-      "@types/*": ["./types/*"]
+      "@/*": [
+        "./*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@screens/*": [
+        "./app/screens/*"
+      ],
+      "@services/*": [
+        "./services/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@constants/*": [
+        "./constants/*"
+      ],
+      "@hooks/*": [
+        "./hooks/*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"
